@@ -3,21 +3,19 @@ import "./style.css";
 
 window.onload = function() {
   let element = document.querySelector("#mydiv");
-  let pronoun = ["the", "our"];
-  let adj = ["great", "big"];
-  let noun = ["jogger", "racoon"];
+  let pronoun = ["the", "our", "a"];
+  let adj = ["great", "big", "cool"];
+  let noun = ["jogger", "racoon", "coder"];
   let domainNames = [];
   for (let i = 0; i < pronoun.length; i++) {
-    console.log("first for loop");
-    console.log("this is i: " + i);
+    ("first for loop");
+    "this is i: " + i;
     for (let j = 0; j < adj.length; j++) {
-      console.log("second for loop");
-      console.log("this is i: " + i + " this is j: " + j);
+      ("second for loop");
+      "this is i: " + i + " this is j: " + j;
       for (let k = 0; k < adj.length; k++) {
-        console.log("third for loop");
-        console.log(
-          "this is i: " + i + " this is j: " + j + " this is k: " + k
-        );
+        ("third for loop");
+        "this is i: " + i + " this is j: " + j + " this is k: " + k;
         domainNames.push(pronoun[i] + adj[j] + noun[k] + ".com");
       }
     }
